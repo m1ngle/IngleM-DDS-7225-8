@@ -1,0 +1,55 @@
+#import libraries
+import pandas as pd
+import numpy as np
+#graphics libraries
+import plotly.express as px
+import plotly.graph_objects as go
+import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
+from matplotlib.ticker import StrMethodFormatter
+import seaborn as sns
+import plotly.io as pio
+pio.renderers.default = "notebook"
+%matplotlib inline
+#Models
+from sklearn.ensemble import IsolationForest
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
+from scipy.stats import skew
+from scipy.stats import kurtosis
+from sklearn.model_selection import train_test_split, cross_val_score
+from sklearn import svm
+from sklearn.cluster import KMeans
+import scipy.cluster.hierarchy as shc
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor, GradientBoostingRegressor, AdaBoostRegressor
+from sklearn.metrics import accuracy_score
+from xgboost import XGBRegressor
+from xgboost import plot_importance
+from sklearn.impute import SimpleImputer
+from datetime import datetime, timedelta
+from __future__ import division
+import statsmodels.api as sma
+#importing preprocessing
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, MaxAbsScaler
+from sklearn.model_selection import train_test_split, GridSearchCV, cross_val_score
+from sklearn.preprocessing import LabelEncoder
+#Pipelines
+from sklearn.pipeline import Pipeline
+from sklearn.linear_model import LinearRegression, Ridge, Lasso, LogisticRegression
+from sklearn import metrics
+from sklearn.metrics import r2_score
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.svm import SVC
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, AdaBoostClassifier
+from sklearn.model_selection import KFold
+from sklearn.metrics import roc_curve, auc, confusion_matrix, precision_score, recall_score
+from sklearn.metrics import precision_recall_fscore_support
+from sklearn.linear_model import SGDClassifier
+from xgboost import XGBClassifier
+from sklearn.model_selection import GridSearchCV
+from sklearn.feature_selection import RFE
+import pickle
