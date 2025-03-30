@@ -1,0 +1,13 @@
+This project will examine customer usage data for a customer resource management (CRM) company
+whose mission is to grow their customers base by insuring their Marketing, Sales, and
+Customer success teams are organized to best address their customer needs. The revenue
+operations team has the ultimate goal of building an operating system for the Marketing, 
+Sales and Customer Success operations. As a business, they are trying
+to understand their target audience for one of their core products, our CRM. They would like 
+insight into:
+1. Of all the prospects that they have, some become customers. What are the biggest
+differentiators between prospects that become customers vs prospects that do not
+become customers?
+2. How can they predict who is likely to convert from a prospect and become a customer?
+This company has two tiers of service: a free tier with limited functionality and a paid
+tier with expanded functionality. They consider users of hubspot’s free tier to be prospects.
